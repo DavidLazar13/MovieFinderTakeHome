@@ -1,77 +1,40 @@
-# Nuxt 3 Minimal Starter
+## MovieFinder
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+TODO: Create a website called MovieFinder meeting the following requirements:
+* MovieFinder is a search engine for movies.
+* It should have at least a homepage and a results page.
+* The homepage should contain a search box.
+* The search box should allow the user to search for movies by Title.
+* The results page should display the found movies in a slider.
+* Every movie slide should contain the movie Title, Poster, Director and Year.
+* Clicking a movie should lead to a movie details page that shows more info about the movie like ratings, plot, actors e.t.c 
+
+
+[David Lazar](mailto:me@davidlazar.co)
+
+## Libraries / Tools Used
+
+- Nuxt.js
+- Nuxt 3 Carousel
+- Tailwind
+- Pinia
+- Composition API
 
 ## Setup
 
-Make sure to install the dependencies:
+To install the dependencies run:
 
-```bash
-# npm
-npm install
+`npm install`
 
-# pnpm
-pnpm install
+And to run the app:
 
-# yarn
-yarn install
+`npm run dev`
 
-# bun
-bun install
-```
+Create .env file and follow the .env.example
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
+## Future Work
 
-```bash
-# npm
-npm run dev
+1. Improve styling and responsive design
+2. Pagination
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# MovieFinder
-# MovieFinderTakeHome

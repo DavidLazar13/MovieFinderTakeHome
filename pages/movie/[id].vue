@@ -1,6 +1,6 @@
 <template>
-  <div v-if="movie" class="flex p-10">
-    <div class="flex-none w-1/3">
+  <div v-if="movie" class="flex flex-col md:flex-row p-10">
+    <div class="flex-none w-full md:w-1/3 mb-6 md:mb-0">
       <img :src="movie.Poster" alt="Movie Poster" class="rounded shadow-lg" />
     </div>
     <div class="flex-1 flex flex-col space-y-6">

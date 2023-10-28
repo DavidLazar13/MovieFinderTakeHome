@@ -29,10 +29,12 @@ const breakpoints = ref({
   700: {
     itemsToShow: 1,
   },
+  1024:{
+    itemsToShow: 2,
+  },
   // 1024 and up
-  1024: {
+  1280: {
     itemsToShow: 3,
-    snapAlign: 'start',
   },
 });
 const handleSearch = async (query: string) => {
